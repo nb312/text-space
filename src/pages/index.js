@@ -25,20 +25,20 @@ const Home = () => {
     <>
       <Head>
         <title>
-          TextSpace 
+          SoundOne 
         </title>
       </Head>
       <main>
         <HomeHero />
         
+        {/* <Divider />
+        <HomeDevelopers /> */}
         <Divider />
-        <HomeDevelopers />
-        <Divider />
-        <HomeDesigners />
-        <HomeTestimonials />
-        <HomeFeatures />
-        <Divider />
-        <HomeClients />
+        {/* <HomeDesigners />*/}
+        <HomeTestimonials /> 
+        {/* <HomeFeatures /> */}
+        {/* <Divider />
+        <HomeClients /> */}
       </main>
     </>
   );

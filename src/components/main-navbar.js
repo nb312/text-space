@@ -79,7 +79,7 @@ export const MainNavbar = (props) => {
             }}
           >
             <NextLink
-              href="/dashboard"
+              href="/explose"
               passHref
             >
               <Link
@@ -87,11 +87,11 @@ export const MainNavbar = (props) => {
                 underline="none"
                 variant="subtitle2"
               >
-                Explose
+                Explore
               </Link>
             </NextLink>
             <NextLink
-              href="/browse"
+              href="/create"
               passHref
             >
               <Link

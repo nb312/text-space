@@ -17,10 +17,10 @@ export const MainLayout = ({ children }) => {
   return (
     <MainLayoutRoot>
       <MainNavbar onOpenSidebar={() => setIsSidebarOpen(true)} />
-      <MainSidebar
+      {/* <MainSidebar
         onClose={() => setIsSidebarOpen(false)}
         open={isSidebarOpen}
-      />
+      /> */}
       {children}
       <Footer />
     </MainLayoutRoot>

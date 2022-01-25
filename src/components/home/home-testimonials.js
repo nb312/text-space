@@ -1,5 +1,5 @@
-import { Avatar, Box, Container, Typography } from '@mui/material';
-
+import { Avatar, Box, Container, Typography,Link } from '@mui/material';
+import NextLink from 'next/link';
 export const HomeTestimonials = (props) => (
   <Box
     sx={{
@@ -20,9 +20,7 @@ export const HomeTestimonials = (props) => (
         color="primary.contrastText"
         variant="h3"
       >
-        &quot;Devias builds some of the best templates you can find for
-        React.
-        They will save you time.&quot;
+        &quot;This market is developing, we are organized with Dao, join us and make the Dao better.&quot;
       </Typography>
       <Box
         sx={{
@@ -32,7 +30,7 @@ export const HomeTestimonials = (props) => (
         }}
       >
         <Avatar
-          src="/static/home/olivier.png"
+          src="/static/team/bingo.jpg"
           sx={{ mr: 2 }}
           variant="rounded"
         />
@@ -41,16 +39,36 @@ export const HomeTestimonials = (props) => (
             color="primary.contrastText"
             variant="h6"
           >
-            Olivier Tassinari,
+          Bingo <Twitter/>
           </Typography>
           <Typography
             color="primary.contrastText"
             variant="body2"
           >
-            co-creator of @MUI
+            CEO of @SoundOne 
           </Typography>
         </div>
       </Box>
+      
     </Container>
+   
   </Box>
 );
+
+function Twitter(){
+
+  return <NextLink
+  href="https://twitter.com/nbingood"
+  passHref
+
+>
+  <Link
+    color="primary.contrastText"
+    sx={{ ml: 2 }}
+    underline="none"
+    variant="subtitle2"
+  >
+    Twitter
+  </Link>
+</NextLink>;
+}

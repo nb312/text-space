@@ -15,46 +15,46 @@ import { MinusOutlined as MinusOutlinedIcon } from '../icons/minus-outlined';
 import { Logo } from './logo';
 
 const sections = [
-  {
-    title: 'Menu',
-    links: [
-      {
-        title: 'Browse Components',
-        href: '/browse'
-      },
-      {
-        title: 'Documentation',
-        href: '/docs/welcome'
-      }
-    ]
-  },
-  {
-    title: 'Placeholders',
-    links: [
-      {
-        title: 'Terms & Conditions',
-        href: '#'
-      },
-      {
-        title: 'License',
-        href: '#'
-      },
-      {
-        title: 'Contact',
-        href: '#'
-      }
-    ]
-  },
+  // {
+  //   title: 'Con',
+  //   links: [
+  //     {
+  //       title: 'Browse Components',
+  //       href: '/browse'
+  //     },
+  //     {
+  //       title: 'Documentation',
+  //       href: '/docs/welcome'
+  //     }
+  //   ]
+  // },
+  // {
+  //   title: 'Connect US',
+  //   links: [
+  //     {
+  //       title: 'Terms & Conditions',
+  //       href: '#'
+  //     },
+  //     {
+  //       title: 'License',
+  //       href: '#'
+  //     },
+  //     {
+  //       title: 'Contact',
+  //       href: '#'
+  //     }
+  //   ]
+  // },
   {
     title: 'Social',
     links: [
       {
-        title: 'Instagram',
-        href: '#'
+        title: 'Discord',
+        href: 'https://discord.com/invite/QEM3XezqHF'
       },
       {
-        title: 'LinkedIn',
-        href: '#'
+        title: 'Twitter',
+        href: 'https://twitter.com/nbingood'
       }
     ]
   }
@@ -75,7 +75,7 @@ export const Footer = (props) => (
     }}
     {...props}>
     <Container maxWidth="lg">
-      <Grid
+      {/* <Grid
         container
         spacing={3}
       >
@@ -99,7 +99,7 @@ export const Footer = (props) => (
             sx={{ mt: 1 }}
             variant="caption"
           >
-            © 2021 Devias.
+            © 2022 SoundOne.
           </Typography>
         </Grid>
         {sections.map((section, index) => (
@@ -158,7 +158,7 @@ export const Footer = (props) => (
             </List>
           </Grid>
         ))}
-      </Grid>
+      </Grid> */}
       <Divider
         sx={{
           borderColor: (theme) => alpha(theme.palette.primary.contrastText, 0.12),
@@ -169,7 +169,7 @@ export const Footer = (props) => (
         color="textSecondary"
         variant="caption"
       >
-        All Rights Reserved.
+      @2022 SoundOne.  All Rights Reserved.
       </Typography>
     </Container>
   </Box>

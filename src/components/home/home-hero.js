@@ -43,8 +43,7 @@ export const HomeHero = (props) => {
           sx={{ py: 3 }}
         >
          
-         Discover, collect, and sell Sound NFTs,
-         all about the sound you can play here.
+         All about the sound NFT,you can discover, collect, sell and play.
         </Typography>
         <Box
           sx={{
@@ -103,7 +102,7 @@ export const HomeHero = (props) => {
           }}
         >
           <NextLink
-            href="/browse"
+            href="/explose"
             passHref
           >
             <Button
@@ -115,7 +114,7 @@ export const HomeHero = (props) => {
             </Button>
           </NextLink>
           <NextLink
-            href="/dashboard"
+            href="/create"
             passHref
           >
             <Button
@@ -128,7 +127,7 @@ export const HomeHero = (props) => {
           </NextLink>
         </Box>
       </Container>
-      <Box
+      {/* <Box
         sx={{
           maxWidth: 980,
           width: '100%',
@@ -152,8 +151,8 @@ export const HomeHero = (props) => {
             src={`/static/home/hero_${theme.palette.mode}.png`}
           />
         </Box>
-      </Box>
-      <Box sx={{ py: 8 }}>
+      </Box> */}
+      {/* <Box sx={{ py: 8 }}>
         <Container
           maxWidth="md"
           sx={{
@@ -304,7 +303,7 @@ export const HomeHero = (props) => {
             </Typography>
           </Box>
         </Container>
-      </Box>
+      </Box> */}
     </Box>
   );
 };

@@ -40,7 +40,7 @@ const App = (props) => {
     <CacheProvider value={emotionCache}>
       <Head>
         <title>
-          Material Kit Pro
+          Sound NFTs 
         </title>
         <meta
           name="viewport"
@@ -63,7 +63,7 @@ const App = (props) => {
                     <RTL direction={settings.direction}>
                       <CssBaseline />
                       <Toaster position="top-center" />
-                      <SettingsButton />
+                      {/* <SettingsButton /> */}
                       <AuthConsumer>
                         {(auth) => !auth.isInitialized
                           ? <SplashScreen />
